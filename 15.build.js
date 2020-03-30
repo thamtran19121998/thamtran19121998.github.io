@@ -1,59 +1,20 @@
 webpackJsonp([15],{
 
-/***/ 124:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_tasks_vue__ = __webpack_require__(502);
-/* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a9d97de_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_tasks_vue__ = __webpack_require__(546);
-function injectStyle (ssrContext) {
-  __webpack_require__(544)
-}
-var normalizeComponent = __webpack_require__(2)
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-4a9d97de"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_tasks_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a9d97de_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_tasks_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
-
-
-/***/ }),
-
-/***/ 479:
+/***/ 372:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "1.jpg?8cccc71bedb39a2e967fdb1e76532b39";
 
 /***/ }),
 
-/***/ 483:
+/***/ 376:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2.jpg?92fb17ecdfda04c14deb22b1175e31cf";
 
 /***/ }),
 
-/***/ 491:
+/***/ 384:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports =
@@ -1932,7 +1893,7 @@ module.exports = Object.create || function create(O, Properties) {
 /***/ "a352":
 /***/ (function(module, exports) {
 
-module.exports = __webpack_require__(492);
+module.exports = __webpack_require__(385);
 
 /***/ }),
 
@@ -3320,12 +3281,12 @@ if (typeof window !== "undefined" && "Vue" in window) {
 
 /***/ }),
 
-/***/ 492:
+/***/ 385:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(__webpack_provided_window_dot_jQuery) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MultiDrag", function() { return MultiDragPlugin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MultiDrag", function() { return MultiDragPlugin; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Sortable", function() { return Sortable; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Swap", function() { return SwapPlugin; });
 /**!
@@ -3923,7 +3884,7 @@ function scrollBy(el, x, y) {
 
 function clone(el) {
   var Polymer = window.Polymer;
-  var $ = __webpack_provided_window_dot_jQuery || window.Zepto;
+  var $ = window.jQuery || window.Zepto;
 
   if (Polymer && Polymer.dom) {
     return Polymer.dom(el).cloneNode(true);
@@ -7028,15 +6989,14 @@ Sortable.mount(Remove, Revert);
 /* harmony default export */ __webpack_exports__["default"] = (Sortable);
 
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(26)))
 
 /***/ }),
 
-/***/ 502:
+/***/ 395:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuedraggable__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuedraggable__ = __webpack_require__(384);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuedraggable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuedraggable__);
 //
 //
@@ -8046,25 +8006,25 @@ var tID = 23,
 
 /***/ }),
 
-/***/ 544:
+/***/ 437:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(545);
+var content = __webpack_require__(438);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = __webpack_require__(37).default
+var add = __webpack_require__(12).default
 var update = add("60674d56", content, true, {});
 
 /***/ }),
 
-/***/ 545:
+/***/ 438:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(1)(false);
+exports = module.exports = __webpack_require__(0)(false);
 // imports
 
 
@@ -8076,14 +8036,53 @@ exports.push([module.i, ".task-dead[data-v-4a9d97de]{padding:8px;border-right:no
 
 /***/ }),
 
-/***/ 546:
+/***/ 439:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ui-cards"},[_c('div',{staticClass:"page-titles"},[_c('div',{staticClass:"title align-self-center"},[_c('h3',{staticClass:"text-primary",staticStyle:{"white-space":"pre"}},[_vm._v(" "+_vm._s(_vm.$t("tasks.title-bar.title"))+" > Đồ án tốt nghiệp")]),_vm._v(" "),_vm._m(0)]),_vm._v(" "),_c('div',{staticClass:"btn-group"},[_c('div',{staticClass:"btn-filter",attrs:{"data-toggle":"dropdown"}},[_c('span',[_c('i',{staticClass:"mdi mdi-filter-variant f-s-18"}),_vm._v("\n           "+_vm._s(_vm.$t("tasks.title-bar.filter.name"))+"\n        ")])]),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.filter.none")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.filter.mytask")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.filter.this-week")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.filter.next-week")))])])]),_vm._v(" "),_c('div',{staticClass:"btn-group"},[_c('div',{staticClass:"btn-filter",attrs:{"data-toggle":"dropdown"}},[_c('span',[_c('i',{staticClass:"mdi mdi-sort f-s-18"}),_vm._v("\n          "+_vm._s(_vm.$t("tasks.title-bar.sort.name"))+"\n        ")])]),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.sort.none")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.sort.time")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.sort.assignee")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.sort.priority")))])])]),_vm._v(" "),_c('div',{staticClass:"btn-group"},[_c('div',{staticClass:"btn-add-project",attrs:{"data-toggle":"dropdown"}},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.menu.edit-project")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.menu.delete-all")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.menu.delete-project")))])])])])]),_vm._v(" "),_c('div',{staticClass:"scrolling-wrapper"},_vm._l((_vm.states),function(element){return _c('div',{key:element.id,staticClass:"card card-state",attrs:{"stateID":element.id}},[_c('div',{staticClass:"card card-name"},[_c('div',{staticClass:"card-body",staticStyle:{"align-items":"center","display":"flex"}},[(element.id!=_vm.btnStateID)?_c('div',{staticClass:"text-title",staticStyle:{"flex-grow":"1","padding-left":"10px"},attrs:{"id":"div-name-state"},on:{"click":function($event){return _vm.showAreaName(element.id)}}},[_vm._v(_vm._s(element.stateName))]):_vm._e(),_vm._v(" "),(element.id==_vm.areStateID)?_c('div',{attrs:{"id":"area-name-state"},on:{"click":function($event){$event.stopPropagation();}}},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(element.stateName),expression:"element.stateName"}],staticClass:"text-font",staticStyle:{"margin-bottom":"-5px","white-space":"pre-wrap"},attrs:{"id":"textarea-name-state","data-area-name-state":"","rows":"1"},domProps:{"value":(element.stateName)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.$set(element, "stateName", $event.target.value)},function($event){return _vm.resizeAreaNameState()}],"blur":function($event){return _vm.hideAreaName(element.id)},"keyup":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"enter",13,$event.key,"Enter")){ return null; }return _vm.hideAreaName(element.id)}}})]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"menu-head-state",attrs:{"data-toggle":"dropdown"}},[_vm._m(2,true),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.states.menu.delete-all")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.states.menu.transition-all")))])])])])]),_vm._v(" "),_c('div',{staticClass:"content-list-task"},[_c('draggable',_vm._b({attrs:{"disabled":!_vm.enabled,"ghost-class":"ghost"},on:{"start":function($event){_vm.dragging = true},"end":function($event){_vm.dragging = false}}},'draggable',_vm.dragOptions,false),_vm._l((element.tasks),function(elm){return _c('a',{key:elm.id,staticClass:"card card-task",attrs:{"data-toggle":"modal","data-target":"#detailTaskModal","taskID":elm.id}},[_c('div',{staticClass:"task-first-row"},[_c('div',{staticClass:"content-task"},[_c('div',{staticClass:"card-body text-black task-name"},[_vm._v(_vm._s(elm.taskName))]),_vm._v(" "),_c('div',{staticStyle:{"display":"flex","flex-direction":"row","align-items":"center"}},[_c('img',{staticClass:"asign-member",attrs:{"src":__webpack_require__(479),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticClass:"task-dead",attrs:{"title":"Thời gian"}},[_vm._v("27/03/2020")])])]),_vm._v(" "),_c('div',{staticClass:"edit-task",attrs:{"data-toggle":"dropdown"}},[_c('span',[_c('i',{staticClass:"ti-pencil"})]),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.edit-task.delete")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.edit-task.transition")))])])])])])}),0),_vm._v(" "),(element.id==_vm.areAddTaskID)?_c('div',{attrs:{"id":"div-area-add-task"}},[_c('div',{staticClass:"area-add-task"},[_c('textarea',{staticClass:"text-font",attrs:{"id":"textarea-add-task","data-area-add-task":"","rows":"3"},on:{"input":function($event){return _vm.resizeAreaAddTask()},"blur":function($event){return _vm.hideAreaAddTask()}}})]),_vm._v(" "),_c('div',{staticClass:"btn-task"},[_c('div',{staticClass:"card btn-add-task",on:{"mousedown":function($event){return _vm.createTask(element.id)}}},[_c('div',{staticClass:"card-body"},[_vm._v(_vm._s(_vm.$t("tasks.add-task")))])]),_vm._v(" "),_vm._m(3,true)])]):_vm._e()],1),_vm._v(" "),(element.id!=_vm.btnAddTaskID)?_c('div',{staticClass:"card card-add-task",attrs:{"id":"div-btn-add-task"},on:{"click":function($event){return _vm.showAreaAddTask(element.id)}}},[_c('div',{staticClass:"card-body"},[_c('i',{staticClass:"ti-plus"}),_vm._v("\n          "+_vm._s(_vm.$t("tasks.add-new-task"))+"\n        ")])]):_vm._e()])}),0),_vm._v(" "),_c('div',{staticClass:"modal hide fade",attrs:{"backdrop":"true","id":"detailTaskModal","tabindex":"-1","role":"dialog","aria-labelledby":"detailTaskModalTitle","aria-hidden":"true"}},[_c('div',{staticClass:"modal-dialog modal-dialog-centered",staticStyle:{"max-width":"650px"},attrs:{"role":"document"}},[_c('div',{staticClass:"modal-content",staticStyle:{"max-height":"540px"}},[_vm._m(4),_vm._v(" "),_c('div',{staticClass:"modal-body",staticStyle:{"padding":"0"}},[_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2"},[_vm._v(_vm._s(_vm.$t("detail-tasks.project")))]),_vm._v(" "),_c('div',{staticClass:"content-row col-md-10"},[_vm._v("Đồ án tốt nghiệp")])]),_vm._v(" "),_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2"},[_vm._v(_vm._s(_vm.$t("detail-tasks.due-date")))]),_vm._v(" "),_c('div',{staticClass:"content-row col-md-10"},[_vm._v("12/03/2020")])]),_vm._v(" "),_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2",staticStyle:{"margin-top":"3px"}},[_vm._v(_vm._s(_vm.$t("detail-tasks.assignee")))]),_vm._v(" "),_vm._m(5)]),_vm._v(" "),_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2"},[_vm._v(_vm._s(_vm.$t("detail-tasks.description")))]),_vm._v(" "),_c('div',{staticClass:"content-row col-md-10"},[_vm._v("\n              Xây dựng hệ thống quản lý công việc trên hai phân hệ web và android.\n              Ứng dụng xây dựng để khắc phục các khuyết điểm của Trello, Asana, Jira.\n              Ngoài các chức năng thông thường còn có thêm chức năng chat và video call.\n            ")])]),_vm._v(" "),_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2"},[_vm._v(_vm._s(_vm.$t("detail-tasks.attachments")))]),_vm._v(" "),_c('div',{staticClass:"content-row col-md-10",staticStyle:{"color":"#24ade4"}},[_vm._v("MoTaDoAn.pdf")])]),_vm._v(" "),_vm._m(6)]),_vm._v(" "),_c('div',{staticClass:"modal-footer"},[_vm._m(7),_vm._v(" "),_c('div',[_c('button',{staticClass:"btn btn-comment",attrs:{"type":"button"}},[_vm._v(_vm._s(_vm.$t("detail-tasks.comment")))])])])])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"btn-infor",attrs:{"data-toggle":"modal","data-target":"#detailTaskModal"}},[_c('i',{staticClass:"ti-info f-s-14"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',[_c('i',{staticClass:"ti-more-alt"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',[_c('i',{staticClass:"ti-more-alt"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"menu-head-state"},[_c('span',[_c('i',{staticClass:"ti-close"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-header"},[_c('div',{staticClass:"nameTask"},[_c('h5',{staticClass:"modal-title",attrs:{"id":"detailTaskModalTitle"}},[_vm._v("Thiết kế prototype")])]),_vm._v(" "),_c('div',{staticClass:"menu-close-modal",attrs:{"data-dismiss":"modal"}},[_c('span',[_c('i',{staticClass:"ti-close",staticStyle:{"color":"#455a64"}})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"content-row col-md-10"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(479),"title":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(483),"title":"Phạm Hồng Thái"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"list-comment"},[_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(479),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Trần Thị Hồng Thắm")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("Vừa xong")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Tình hình làm tới đâu rồi?")])]),_vm._v(" "),_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(479),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Trần Thị Hồng Thắm")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("05/10/2020")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Thiết kế prototype vậy nhìn ổn không?")])]),_vm._v(" "),_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(483),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Phạm Hòng Thái")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("07/10/2020")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Oke đó")])]),_vm._v(" "),_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(479),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Trần Thị Hồng Thắm")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("05/10/2020")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Thiết kế prototype vậy nhìn ổn không?")])]),_vm._v(" "),_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(483),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Phạm Hòng Thái")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("07/10/2020")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Oke đó")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"area-comment"},[_c('textarea',{staticClass:"text-font",staticStyle:{"width":"100%"},attrs:{"rows":"3"}})])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ui-cards"},[_c('div',{staticClass:"page-titles"},[_c('div',{staticClass:"title align-self-center"},[_c('h3',{staticClass:"text-primary",staticStyle:{"white-space":"pre"}},[_vm._v(" "+_vm._s(_vm.$t("tasks.title-bar.title"))+" > Đồ án tốt nghiệp")]),_vm._v(" "),_vm._m(0)]),_vm._v(" "),_c('div',{staticClass:"btn-group"},[_c('div',{staticClass:"btn-filter",attrs:{"data-toggle":"dropdown"}},[_c('span',[_c('i',{staticClass:"mdi mdi-filter-variant f-s-18"}),_vm._v("\n           "+_vm._s(_vm.$t("tasks.title-bar.filter.name"))+"\n        ")])]),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.filter.none")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.filter.mytask")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.filter.this-week")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.filter.next-week")))])])]),_vm._v(" "),_c('div',{staticClass:"btn-group"},[_c('div',{staticClass:"btn-filter",attrs:{"data-toggle":"dropdown"}},[_c('span',[_c('i',{staticClass:"mdi mdi-sort f-s-18"}),_vm._v("\n          "+_vm._s(_vm.$t("tasks.title-bar.sort.name"))+"\n        ")])]),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.sort.none")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.sort.time")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.sort.assignee")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.sort.priority")))])])]),_vm._v(" "),_c('div',{staticClass:"btn-group"},[_c('div',{staticClass:"btn-add-project",attrs:{"data-toggle":"dropdown"}},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.menu.edit-project")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.menu.delete-all")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.title-bar.menu.delete-project")))])])])])]),_vm._v(" "),_c('div',{staticClass:"scrolling-wrapper"},_vm._l((_vm.states),function(element){return _c('div',{key:element.id,staticClass:"card card-state",attrs:{"stateID":element.id}},[_c('div',{staticClass:"card card-name"},[_c('div',{staticClass:"card-body",staticStyle:{"align-items":"center","display":"flex"}},[(element.id!=_vm.btnStateID)?_c('div',{staticClass:"text-title",staticStyle:{"flex-grow":"1","padding-left":"10px"},attrs:{"id":"div-name-state"},on:{"click":function($event){return _vm.showAreaName(element.id)}}},[_vm._v(_vm._s(element.stateName))]):_vm._e(),_vm._v(" "),(element.id==_vm.areStateID)?_c('div',{attrs:{"id":"area-name-state"},on:{"click":function($event){$event.stopPropagation();}}},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(element.stateName),expression:"element.stateName"}],staticClass:"text-font",staticStyle:{"margin-bottom":"-5px","white-space":"pre-wrap"},attrs:{"id":"textarea-name-state","data-area-name-state":"","rows":"1"},domProps:{"value":(element.stateName)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.$set(element, "stateName", $event.target.value)},function($event){return _vm.resizeAreaNameState()}],"blur":function($event){return _vm.hideAreaName(element.id)},"keyup":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"enter",13,$event.key,"Enter")){ return null; }return _vm.hideAreaName(element.id)}}})]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"menu-head-state",attrs:{"data-toggle":"dropdown"}},[_vm._m(2,true),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.states.menu.delete-all")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.states.menu.transition-all")))])])])])]),_vm._v(" "),_c('div',{staticClass:"content-list-task"},[_c('draggable',_vm._b({attrs:{"disabled":!_vm.enabled,"ghost-class":"ghost"},on:{"start":function($event){_vm.dragging = true},"end":function($event){_vm.dragging = false}}},'draggable',_vm.dragOptions,false),_vm._l((element.tasks),function(elm){return _c('a',{key:elm.id,staticClass:"card card-task",attrs:{"data-toggle":"modal","data-target":"#detailTaskModal","taskID":elm.id}},[_c('div',{staticClass:"task-first-row"},[_c('div',{staticClass:"content-task"},[_c('div',{staticClass:"card-body text-black task-name"},[_vm._v(_vm._s(elm.taskName))]),_vm._v(" "),_c('div',{staticStyle:{"display":"flex","flex-direction":"row","align-items":"center"}},[_c('img',{staticClass:"asign-member",attrs:{"src":__webpack_require__(372),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticClass:"task-dead",attrs:{"title":"Thời gian"}},[_vm._v("27/03/2020")])])]),_vm._v(" "),_c('div',{staticClass:"edit-task",attrs:{"data-toggle":"dropdown"}},[_c('span',[_c('i',{staticClass:"ti-pencil"})]),_vm._v(" "),_c('div',{staticClass:"dropdown-menu dropdown-menu-right"},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.edit-task.delete")))]),_vm._v(" "),_c('a',{staticClass:"dropdown-item",attrs:{"href":"#"}},[_vm._v(_vm._s(_vm.$t("tasks.edit-task.transition")))])])])])])}),0),_vm._v(" "),(element.id==_vm.areAddTaskID)?_c('div',{attrs:{"id":"div-area-add-task"}},[_c('div',{staticClass:"area-add-task"},[_c('textarea',{staticClass:"text-font",attrs:{"id":"textarea-add-task","data-area-add-task":"","rows":"3"},on:{"input":function($event){return _vm.resizeAreaAddTask()},"blur":function($event){return _vm.hideAreaAddTask()}}})]),_vm._v(" "),_c('div',{staticClass:"btn-task"},[_c('div',{staticClass:"card btn-add-task",on:{"mousedown":function($event){return _vm.createTask(element.id)}}},[_c('div',{staticClass:"card-body"},[_vm._v(_vm._s(_vm.$t("tasks.add-task")))])]),_vm._v(" "),_vm._m(3,true)])]):_vm._e()],1),_vm._v(" "),(element.id!=_vm.btnAddTaskID)?_c('div',{staticClass:"card card-add-task",attrs:{"id":"div-btn-add-task"},on:{"click":function($event){return _vm.showAreaAddTask(element.id)}}},[_c('div',{staticClass:"card-body"},[_c('i',{staticClass:"ti-plus"}),_vm._v("\n          "+_vm._s(_vm.$t("tasks.add-new-task"))+"\n        ")])]):_vm._e()])}),0),_vm._v(" "),_c('div',{staticClass:"modal hide fade",attrs:{"backdrop":"true","id":"detailTaskModal","tabindex":"-1","role":"dialog","aria-labelledby":"detailTaskModalTitle","aria-hidden":"true"}},[_c('div',{staticClass:"modal-dialog modal-dialog-centered",staticStyle:{"max-width":"650px"},attrs:{"role":"document"}},[_c('div',{staticClass:"modal-content",staticStyle:{"max-height":"540px"}},[_vm._m(4),_vm._v(" "),_c('div',{staticClass:"modal-body",staticStyle:{"padding":"0"}},[_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2"},[_vm._v(_vm._s(_vm.$t("detail-tasks.project")))]),_vm._v(" "),_c('div',{staticClass:"content-row col-md-10"},[_vm._v("Đồ án tốt nghiệp")])]),_vm._v(" "),_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2"},[_vm._v(_vm._s(_vm.$t("detail-tasks.due-date")))]),_vm._v(" "),_c('div',{staticClass:"content-row col-md-10"},[_vm._v("12/03/2020")])]),_vm._v(" "),_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2",staticStyle:{"margin-top":"3px"}},[_vm._v(_vm._s(_vm.$t("detail-tasks.assignee")))]),_vm._v(" "),_vm._m(5)]),_vm._v(" "),_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2"},[_vm._v(_vm._s(_vm.$t("detail-tasks.description")))]),_vm._v(" "),_c('div',{staticClass:"content-row col-md-10"},[_vm._v("\n              Xây dựng hệ thống quản lý công việc trên hai phân hệ web và android.\n              Ứng dụng xây dựng để khắc phục các khuyết điểm của Trello, Asana, Jira.\n              Ngoài các chức năng thông thường còn có thêm chức năng chat và video call.\n            ")])]),_vm._v(" "),_c('div',{staticClass:"d-project"},[_c('div',{staticClass:"title-row col-md-2"},[_vm._v(_vm._s(_vm.$t("detail-tasks.attachments")))]),_vm._v(" "),_c('div',{staticClass:"content-row col-md-10",staticStyle:{"color":"#24ade4"}},[_vm._v("MoTaDoAn.pdf")])]),_vm._v(" "),_vm._m(6)]),_vm._v(" "),_c('div',{staticClass:"modal-footer"},[_vm._m(7),_vm._v(" "),_c('div',[_c('button',{staticClass:"btn btn-comment",attrs:{"type":"button"}},[_vm._v(_vm._s(_vm.$t("detail-tasks.comment")))])])])])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"btn-infor",attrs:{"data-toggle":"modal","data-target":"#detailTaskModal"}},[_c('i',{staticClass:"ti-info f-s-14"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',[_c('i',{staticClass:"ti-more-alt"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',[_c('i',{staticClass:"ti-more-alt"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"menu-head-state"},[_c('span',[_c('i',{staticClass:"ti-close"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-header"},[_c('div',{staticClass:"nameTask"},[_c('h5',{staticClass:"modal-title",attrs:{"id":"detailTaskModalTitle"}},[_vm._v("Thiết kế prototype")])]),_vm._v(" "),_c('div',{staticClass:"menu-close-modal",attrs:{"data-dismiss":"modal"}},[_c('span',[_c('i',{staticClass:"ti-close",staticStyle:{"color":"#455a64"}})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"content-row col-md-10"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(372),"title":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(376),"title":"Phạm Hồng Thái"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"list-comment"},[_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(372),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Trần Thị Hồng Thắm")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("Vừa xong")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Tình hình làm tới đâu rồi?")])]),_vm._v(" "),_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(372),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Trần Thị Hồng Thắm")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("05/10/2020")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Thiết kế prototype vậy nhìn ổn không?")])]),_vm._v(" "),_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(376),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Phạm Hòng Thái")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("07/10/2020")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Oke đó")])]),_vm._v(" "),_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(372),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Trần Thị Hồng Thắm")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("05/10/2020")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Thiết kế prototype vậy nhìn ổn không?")])]),_vm._v(" "),_c('div',{staticClass:"comment"},[_c('div',{staticClass:"row"},[_c('img',{staticClass:"team-member",attrs:{"src":__webpack_require__(376),"alt":"Trần Thị Hồng Thắm"}}),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"5px","font-weight":"550"}},[_vm._v("Phạm Hòng Thái")]),_vm._v(" "),_c('div',{staticClass:"time-cmt"},[_vm._v("07/10/2020")])]),_vm._v(" "),_c('div',{staticClass:"cmt-content"},[_vm._v("Oke đó")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"area-comment"},[_c('textarea',{staticClass:"text-font",staticStyle:{"width":"100%"},attrs:{"rows":"3"}})])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
+/***/ 56:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_tasks_vue__ = __webpack_require__(395);
+/* empty harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a9d97de_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_tasks_vue__ = __webpack_require__(439);
+function injectStyle (ssrContext) {
+  __webpack_require__(437)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-4a9d97de"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_tasks_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a9d97de_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_tasks_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
 
 /***/ })
 

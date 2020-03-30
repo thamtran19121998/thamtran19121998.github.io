@@ -1,48 +1,9 @@
 webpackJsonp([9],{
 
-/***/ 151:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_BubbleMapsPage_vue__ = __webpack_require__(540);
-/* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_09f60b3a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_BubbleMapsPage_vue__ = __webpack_require__(648);
-function injectStyle (ssrContext) {
-  __webpack_require__(641)
-}
-var normalizeComponent = __webpack_require__(2)
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_BubbleMapsPage_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_09f60b3a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_BubbleMapsPage_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
-
-
-/***/ }),
-
-/***/ 495:
+/***/ 388:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(1)(false);
+exports = module.exports = __webpack_require__(0)(false);
 // imports
 
 
@@ -54,7 +15,7 @@ exports.push([module.i, ".ammapAlert{display:table-cell;vertical-align:middle;te
 
 /***/ }),
 
-/***/ 496:
+/***/ 389:
 /***/ (function(module, exports) {
 
 (function(){var d;window.AmCharts?d=window.AmCharts:(d={},window.AmCharts=d,d.themes={},d.maps={},d.inheriting={},d.charts=[],d.onReadyArray=[],d.useUTC=!1,d.updateRate=60,d.uid=0,d.lang={},d.translations={},d.mapTranslations={},d.windows={},d.initHandlers=[],d.amString="am",d.pmString="pm");d.Class=function(a){var b=function(){arguments[0]!==d.inheriting&&(this.events={},this.construct.apply(this,arguments))};a.inherits?(b.prototype=new a.inherits(d.inheriting),b.base=a.inherits.prototype,delete a.inherits):
@@ -464,7 +425,7 @@ c*f);a.getUTCMonth()>b+c*f&&a.setUTCDate(a.getUTCDate()-1);d||g||a.setUTCDate(a.
 
 /***/ }),
 
-/***/ 497:
+/***/ 390:
 /***/ (function(module, exports) {
 
 /*
@@ -1744,7 +1705,7 @@ AmCharts.addInitHandler( function( chart ) {
 
 /***/ }),
 
-/***/ 498:
+/***/ 391:
 /***/ (function(module, exports) {
 
 (function(){var e=window.AmCharts;e.AmRectangularChart=e.Class({inherits:e.AmCoordinateChart,construct:function(a){e.AmRectangularChart.base.construct.call(this,a);this.theme=a;this.createEvents("zoomed","changed");this.marginRight=this.marginBottom=this.marginTop=this.marginLeft=20;this.depth3D=this.angle=0;this.plotAreaFillColors="#FFFFFF";this.plotAreaFillAlphas=0;this.plotAreaBorderColor="#000000";this.plotAreaBorderAlpha=0;this.maxZoomFactor=20;this.zoomOutButtonImageSize=19;this.zoomOutButtonImage=
@@ -1847,7 +1808,7 @@ return a},showBalloonAt:function(a,b){void 0===b&&(b=this.parseDates?this.dateTo
 
 /***/ }),
 
-/***/ 499:
+/***/ 392:
 /***/ (function(module, exports) {
 
 AmCharts.themes.light = {
@@ -2042,7 +2003,7 @@ AmCharts.themes.light = {
 
 /***/ }),
 
-/***/ 500:
+/***/ 393:
 /***/ (function(module, exports) {
 
 (function(){var d;window.AmCharts?d=window.AmCharts:(d={},window.AmCharts=d,d.themes={},d.maps={},d.inheriting={},d.charts=[],d.onReadyArray=[],d.useUTC=!1,d.updateRate=60,d.uid=0,d.lang={},d.translations={},d.mapTranslations={},d.windows={},d.initHandlers=[],d.amString="am",d.pmString="pm");d.Class=function(a){var b=function(){arguments[0]!==d.inheriting&&(this.events={},this.construct.apply(this,arguments))};a.inherits?(b.prototype=new a.inherits(d.inheriting),b.base=a.inherits.prototype,delete a.inherits):
@@ -2367,7 +2328,7 @@ a.title){var d=c.chart,g=document.createElement("li");g.className=d.classNamePre
 
 /***/ }),
 
-/***/ 501:
+/***/ 394:
 /***/ (function(module, exports) {
 
 ﻿// (c) ammap.com | SVG (in JSON format) map of World - Low
@@ -3272,12 +3233,12 @@ AmCharts.maps.worldLow={
 
 /***/ }),
 
-/***/ 540:
+/***/ 433:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BubbleMap_vue__ = __webpack_require__(643);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__BubbleMapData_js__ = __webpack_require__(647);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BubbleMap_vue__ = __webpack_require__(536);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__BubbleMapData_js__ = __webpack_require__(540);
 //
 //
 //
@@ -3304,21 +3265,21 @@ AmCharts.maps.worldLow={
 
 /***/ }),
 
-/***/ 541:
+/***/ 434:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_amcharts3__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_amcharts3__ = __webpack_require__(389);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_amcharts3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_amcharts3__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_amcharts3_amcharts_plugins_responsive_responsive_js__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_amcharts3_amcharts_plugins_responsive_responsive_js__ = __webpack_require__(390);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_amcharts3_amcharts_plugins_responsive_responsive_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_amcharts3_amcharts_plugins_responsive_responsive_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_amcharts3_amcharts_serial_js__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_amcharts3_amcharts_serial_js__ = __webpack_require__(391);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_amcharts3_amcharts_serial_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_amcharts3_amcharts_serial_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_amcharts3_amcharts_themes_light__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_amcharts3_amcharts_themes_light__ = __webpack_require__(392);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_amcharts3_amcharts_themes_light___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_amcharts3_amcharts_themes_light__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ammap3__ = __webpack_require__(500);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ammap3__ = __webpack_require__(393);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ammap3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_ammap3__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ammap3_ammap_maps_js_worldLow__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ammap3_ammap_maps_js_worldLow__ = __webpack_require__(394);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ammap3_ammap_maps_js_worldLow___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_ammap3_ammap_maps_js_worldLow__);
 //
 //
@@ -3421,25 +3382,25 @@ AmCharts.maps.worldLow={
 
 /***/ }),
 
-/***/ 641:
+/***/ 534:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(642);
+var content = __webpack_require__(535);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = __webpack_require__(37).default
+var add = __webpack_require__(12).default
 var update = add("6f590460", content, true, {});
 
 /***/ }),
 
-/***/ 642:
+/***/ 535:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(1)(false);
+exports = module.exports = __webpack_require__(0)(false);
 // imports
 
 
@@ -3451,17 +3412,17 @@ exports.push([module.i, ".bubble-maps-page .card-body{height:600px;width:100%;ma
 
 /***/ }),
 
-/***/ 643:
+/***/ 536:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_BubbleMap_vue__ = __webpack_require__(541);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_BubbleMap_vue__ = __webpack_require__(434);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2d681113_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_BubbleMap_vue__ = __webpack_require__(646);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2d681113_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_BubbleMap_vue__ = __webpack_require__(539);
 function injectStyle (ssrContext) {
-  __webpack_require__(644)
+  __webpack_require__(537)
 }
-var normalizeComponent = __webpack_require__(2)
+var normalizeComponent = __webpack_require__(1)
 /* script */
 
 
@@ -3489,27 +3450,27 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 644:
+/***/ 537:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(645);
+var content = __webpack_require__(538);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = __webpack_require__(37).default
+var add = __webpack_require__(12).default
 var update = add("67ad0d7d", content, true, {});
 
 /***/ }),
 
-/***/ 645:
+/***/ 538:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(1)(false);
+exports = module.exports = __webpack_require__(0)(false);
 // imports
-exports.i(__webpack_require__(495), "");
+exports.i(__webpack_require__(388), "");
 
 // module
 exports.push([module.i, ".bubble-map{height:100%}", ""]);
@@ -3519,7 +3480,7 @@ exports.push([module.i, ".bubble-map{height:100%}", ""]);
 
 /***/ }),
 
-/***/ 646:
+/***/ 539:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3530,7 +3491,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 647:
+/***/ 540:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5350,7 +5311,7 @@ var data = [{
 
 /***/ }),
 
-/***/ 648:
+/***/ 541:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5358,6 +5319,45 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
+/***/ 83:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_BubbleMapsPage_vue__ = __webpack_require__(433);
+/* empty harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_09f60b3a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_BubbleMapsPage_vue__ = __webpack_require__(541);
+function injectStyle (ssrContext) {
+  __webpack_require__(534)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_BubbleMapsPage_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_09f60b3a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_BubbleMapsPage_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
 
 /***/ })
 
